@@ -33,6 +33,9 @@ nav li{
 	background-size: cover;
 	background-position: center;
 }
+.ressite{
+	display: none;
+}
 .title-div{
 	text-align: center;
 }
@@ -216,7 +219,6 @@ h2::after{
 .contact-div{
 	width: 400px;
 	float: left;
-
 }
 .cont{
 	width: fit-content;
@@ -229,6 +231,11 @@ h2::after{
 .snsicon-last{
 	font-size: 50px;
 }
+.add{
+	border-bottom: auto;
+	border-bottom-color: black;
+}
+
 footer {
 	height: 60px;
 	background-color: #EC715F;
@@ -251,10 +258,120 @@ footer {
 	nav{
 		display: none;
 	}
-	.line{
+/*	.line{
 		display: inline-block;
 		float: right;
-		font-size: : 3px;
-		margin-right: 8px;
+		margin: 3px 8px 3px 0;
+	}*/
+	.line{
+		position: absolute;
+		top: 3px;
+		right: 8px;
+	}
+	.main-title{
+		font-size: 40px;
+		color: #FAFAFA;
+		padding: 200px 0 10px 0;
+}
+	.sub-title{
+		font-size: 18px;
+		color: #FAFAFA;
+}
+	.main-visual{
+		width: 100%;
+		height: 750px;
+		background-image: url(../img/code.png);
+		background-size: cover;
+		background-position: center;
+	}
+	.portfolio-main{
+		width: 90%;
+		margin: 0 5%;
+	}
+	.portfolio-img ul li:nth-last-child(even){
+		display: none;
+		text-align: center;
+	}
+	.websuku{
+		float: none;
+		width: 300px;
+		height: 250px;
+		margin: 0 5% 10px;
+	}
+	.webcamp{
+		float: none;
+		width: 300px;
+		height: 250px;
+		margin: 0 5% 10px;
+	}
+	.webcamp-mother{
+		float: none;
+		width: 300px;
+		height: 250px;
+		margin: 0 5%;
+	}
+	.feature-main{
+		width: 90%;
+		margin: 0 5%;
+	}
+	.strengh1{
+		width: 320px;
+		height: auto;
+		float: none;
+		margin: 0 5% 10px;
+	}
+	.strengh2{
+		width: 320px;
+		height: auto;
+		float: none;
+		margin: 0 5% 10px;
+	}
+	.strengh3{
+		width: 320px;
+		height: auto;
+		float: none;
+		margin: 0 5%;
+	}
+	.profile-main{
+		width: 90%;
+		margin: 0 5%;
+	}
+	.proicon-div{
+		width: 90%;
+		margin: 0 5%;
+		text-align: center;
+		float: none;
+	}
+	.pmyname{
+	margin: 0 5%;
+	text-align: center;
+	}
+	.profont{
+	font-size: 20px;
+	padding:20px 0 5px;
+	text-align: center;
+	}
+	.proicon{
+		width: 250px;
+		height: 250px;
+		border-radius: 50%;
+	}
+	.protext{
+		width: 90%;
+		float: none;
+	}
+	.contact-main{
+		width: 90%;
+		margin: 0 5%;
+	}
+	.sns{
+		width: 90%;
+		margin: 0 5%;
+		float: none;
+	}
+	.contact-div{
+		width: 90%;
+		margin: 0 5%;
+		float: none;
 	}
 }
