@@ -1,0 +1,260 @@
+/*ヘッダー*/
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+.line {
+	display: none;
+}
+.header-div {
+	width: 1024px;
+	margin: 0 auto;
+}
+.mysite {
+	float: left;
+	height: 70px;
+}
+nav {
+	float: right;
+}
+nav li{
+	float: left;
+	font-size: 16px;
+	color: #FAFAFA;
+	padding: 0 30px;
+	line-height: 70px;
+}
+/*メインヴィジュアル*/
+.main-visual{
+	width: 100%;
+	height: 650px;
+	background-image: url(../img/mv.png);
+	background-size: cover;
+	background-position: center;
+}
+.title-div{
+	text-align: center;
+}
+.main-title{
+	font-size: 64px;
+	color: #FAFAFA;
+	padding: 200px 0 10px 0;
+}
+.sub-title{
+	font-size: 20px;
+	color: #FAFAFA;
+}
+/*それぞれの見出し*/
+h2{
+	font-size: 32px;
+	color: #000000;
+	padding: 0 8px;
+	text-align: center;
+}
+h2::after{
+	content: '';
+	display: block;
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+	margin: 0 auto;
+}
+/*p全体*/
+.text{
+	font-size: 16px;
+	color: #000000;
+}
+/*タイトル下3行テキスト*/
+.textmain{
+	text-align: center;
+	padding: 30px 0;
+}
+/*ポートフォリオ*/
+.portfolio{
+	width: 100%;
+	background-color: #ECEFF1;
+	padding: 90px 0;
+}
+.portfolio-main{
+	width: 920px;
+	margin: 0 auto;
+}
+.sketch{
+	background-image: url("../img/sketch.jpg");
+	width: 300px;
+	height: 250px;
+	margin: 0 10px 10px 0;
+	float: left;
+	background-size: cover;
+	background-position: center;
+}
+.websuku{
+	background-image: url("../img/websuku.png");
+	width: 300px;
+	height: 250px;
+	margin: 0 10px 10px 0;
+	float: left;
+	background-size: cover;
+	background-position: center;
+}
+.write{
+	background-image: url("../img/write.jpg");
+	width: 300px;
+	height: 250px;
+	float: left;
+	background-size: cover;
+	background-position: center;
+}
+.webcamp{
+	background-image: url("../img/webcamp.png");
+
+	width: 300px;
+	height: 250px;
+	margin: 0 10px 10px 0;
+	float: left;
+	background-size: cover;
+	background-position: center;
+}
+.talk{
+	background-image: url("../img/talk.jpg");
+	width: 300px;
+	height: 250px;
+	margin: 0 10px 10px 0;
+	float: left;
+	background-size: cover;
+	background-position: center;
+}
+.webcamp-mother{
+	background-image: url("../img/webcamp-mother.png");
+	width: 300px;
+	height: 250px;
+	float: left;
+	background-size: cover;
+	background-position: center;
+}
+/*フューチャー*/
+.feature{
+	width: 100%;
+	padding: 90px 0;
+}
+.feature-main{
+	width: 980px;
+	margin: 0 auto;
+}
+.strength{
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	margin: 10px 0;
+}
+.icons{
+	text-align: center;
+}
+.f-icon{
+	font-size: 60px;
+	text-align: center;
+}
+.strengh1{
+	width: 320px;
+	float: left;
+	margin-right: 10px;
+}
+.strengh2{
+	width: 320px;
+	float: left;
+	margin-right: 10px;
+}
+.strengh3{
+	width: 320px;
+	float: left;
+}
+/*プロフィール*/
+.profile{
+	width: 100%;
+	padding:90px 0;
+	background-color:#ECEFF1;
+}
+.profile-main{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.profont{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.proicon-div{
+	width: 512px;
+	text-align: center;
+	float: left;
+}
+.proicon{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+.protext{
+	width: 512px;
+	float: left;
+}
+.pmyname{
+	padding-bottom: 8px;
+}
+.contact{
+	width: 100%;
+	padding:90px 0;
+}
+.contact-main{
+	width: 800px;
+	margin: 0 auto;
+}
+.sns{
+	width: 400px;
+	float: left;
+}
+.contact-div{
+	width: 400px;
+	float: left;
+
+}
+.cont{
+	width: fit-content;
+	margin: 0 auto;
+}
+.snsicon{
+	font-size: 50px;
+	padding-right: 20px;
+}
+.snsicon-last{
+	font-size: 50px;
+}
+footer {
+	height: 60px;
+	background-color: #EC715F;
+	text-align: center;
+	line-height: 60px;
+}
+.footer {
+	font-size: 16px;
+	color: #FAFAFA;
+	line-height: 60px;
+}
+@media screen and (max-width: 768px) {
+	header {
+		height: 50px;
+		width: 100%;
+	}
+	.mysite {
+		height: 50px;
+	}
+	nav{
+		display: none;
+	}
+	.line{
+		display: inline-block;
+		float: right;
+		font-size: : 3px;
+		margin-right: 8px;
+	}
+}
